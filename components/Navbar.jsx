@@ -53,7 +53,7 @@ const ButtonGroup = ({ setActive, router }) => {
   // const { connectWallet, currentAccount } = true;
 
   const connectWallet = () => {};
-  const currentAccount = false;
+  const currentAccount = true;
 
   return currentAccount ? (
     <div className='flexCenter'>
